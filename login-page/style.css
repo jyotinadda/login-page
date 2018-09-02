@@ -1,0 +1,136 @@
+body
+{
+    background-color:pink;
+    margin:0;
+    padding:0;
+    font-family:arial;
+    height:100vh;
+}
+#main-content
+{
+    background-color:yellow;
+    display:grid;
+    grid-template-columns:40% 60%;
+    color:#fff;
+    letter-spacing:0.07em;
+}
+/*-------------------left ---------------------------*/
+#left
+{
+    background-color:black;
+    text-align: center;
+    margin:0 auto;
+    width:100%;
+    height:100%;
+
+}
+#left input
+{
+    position: relative;
+    background-color: black;
+    border:1px solid grey;
+    width:40%;
+    height:20%;
+    padding:5px;
+    
+}
+#login-details
+{
+    position: relative;
+    top:50px;
+    padding:10px;
+    margin:10px;
+}
+#login-details input[type="button"]
+{
+    background-image:-webkit-linear-gradient(top,#FF6347,hotpink);
+    text-align:center;
+    color:#fff;
+    position:relative;
+    top:40px; 
+    padding:10px;
+}
+input[type="button"]:hover
+{
+    border:1px solid black;
+    color:white;
+    font-weight:bold;
+}
+
+#create-acc input[type="button"]
+{
+    background: none;
+    color:#fff;
+    padding:20px;
+    letter-spacing: 0.1em;
+    position:relative;
+    top:100px;
+    border-radius: 4px;
+}
+#create-acc input[type="button"]:hover,#alt small:hover
+{
+   color:orange;
+    border:2px solid orange;
+    font-weight:bold;
+    border-radius: 4px;   
+}
+#alt small:hover
+{
+    border:none;
+}
+#alt
+{
+    position: relative;
+    top:100px; 
+}
+
+hr[class="bar"]
+{
+    border:none;
+    color:#fff;
+}
+/*-------------------right ---------------------------*/
+#right
+{
+    background-color:green;
+    display:flex;
+    background-image:url(images/login-bg.jpg);
+    background-position:50%;
+    background-size:cover;
+    height:100vh;
+}
+#heading
+{
+    position:relative;
+    top:35%;
+    left:2%;
+    font-size:  50px;
+    letter-spacing:0.05em;
+}
+#heading input
+{
+    background: none;
+    color:#fff;
+    padding:20px;
+    letter-spacing: 0.1em;
+    position:relative;
+    left:30%;
+    top:-40px;
+    border-radius: 4px;
+}
+#heading input:hover
+{
+
+    color:orange;
+    border:2px solid orange;
+    font-weight:bold;
+    border-radius: 4px;
+   
+}
+#banner
+{
+    position: relative;
+    padding:20px;
+    top:30px;
+}
+
